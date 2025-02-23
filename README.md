@@ -30,6 +30,9 @@ django_blog/
 └── templates/
 ├── base.html
 ├── home.html
+├── post_delete.html
+├── post_edit.html
+├── post_new.html
 └── post_detail.html
 ├── static/
 │     ├──css/
@@ -46,7 +49,10 @@ django_blog/
 
 - **Views**:
     - **Home Page**: Displays a list of all blog posts.
-    - **Post Detail View**: Displays detailed information about a specific post. Accessible via the URL: `/post/{pk}`.
+    - **Post Detail View**: Displays detailed information about a specific post. Accessible via the URL: `/post/{pk}/`.
+    - **Post Edit View**: Edit information about a specific post. Accessible via the URL: `/post/{pk}/edit`.
+    - **Post New View**: Create a new post. Accessible via the URL: `/post/new`.
+    - **Post Delete View**: Delete a post. Accessible via the URL: `/post/{pk}/delete`.
 
 ## Installation
 
