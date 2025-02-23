@@ -1,11 +1,11 @@
 body {
-    font-family: 'Source Sans PRO', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
 }
 
-header{
-    border-bottom: 1px #ddd solid;
-    margin-bottom: 2px;
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
     display: flex;
 }
 
@@ -20,7 +20,7 @@ header h1 a {
 
 .nav-right {
     display: flex;
-    padding-top: 2px;
+    padding-top: 2rem;
 }
 
 .post-entry {
@@ -37,11 +37,11 @@ header h1 a {
     text-decoration: none;
 }
 
-.post-entry h2 a:hover {
-    color: red;
-}
-
 .post-entry p {
     margin: 0;
     font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+    color: red;
 }
